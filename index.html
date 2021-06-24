@@ -27,7 +27,7 @@
 <script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css></script> 
 
 <!------babel javascript-->
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<!---<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>-->
 <title>MyProject</title>
 
 <!---------------------------------------Html elements styling-------------------------------------------------------------------->
@@ -219,7 +219,7 @@ float: left;
             <button class="btn" onclick="cleanEditor()"><i class="fa fa-close" ></i> Clear</button>
             <button class="btn" onclick="darkMode()"><i class="fa fa-play" id="btntheme2"></i> Mode</button>
             <input type="file" name="inputfile" id="inputfile" style="display:none;"><br>
-            <button class="btn" onclick="p_ast()"><i class="fa fa-play" id="btntheme2"></i> parsing</button>
+            <button class="btn" onclick="p_ast()"><i class="fa fa-play" id="btntheme2"></i> parse</button>
              </div>
                 
             <div id="parent">
@@ -390,7 +390,7 @@ function downloadHTML() {
 <script type=module>
 (function (){
 const babel = require("@babel/core");
-//import { parse } from '@babel/parser';
+//import { parse }  from '@babel/parser';
 //import traverse from '@babel/traverse';
 //import generate from '@babel/generator';
 
